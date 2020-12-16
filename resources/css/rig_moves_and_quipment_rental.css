@@ -1,0 +1,31 @@
+/* header section */
+header{
+    background: url(../img/rig-moves/rig-moves-header.jpeg)center no-repeat;
+    background-size: cover;
+    height: 310px;
+}
+header h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: lighter;
+}
+/* end of header section */
+/* body_content section */
+#body_content .content .carousel{
+    border: 4px solid #94c11f;
+}
+#body_content .content .btn-links p{
+    font-weight: bolder;
+}
+/* end of body_content section */
+/* ////////////////////////////////// */
+@media (max-width: 576px){
+    /* header */
+    header{
+        height: 150px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+    /* end of header */
+}

@@ -1,0 +1,43 @@
+/* header section */
+header{
+    background: url(../img/business-support/partnersHand.jpg)center no-repeat;
+    background-size: cover;
+    height: 310px;
+}
+header h2{
+    color: #fff;
+    font-size: 50px;
+}
+/* end of header section */
+/* consult section */
+#consult .title-p{
+    font-size: 28px;
+    text-align: center;
+}
+/* end of consult section */
+/* ////////////////////////////////// */
+@media (max-width: 576px){
+    /* header */
+    header{
+        height: 150px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+    /* end of header */
+    /* consult */
+    #consult p, #consult ul{
+        margin-right: unset!important;
+    }
+    /* end of consult */
+    /* value section */
+    #value p{
+        margin-right: unset!important;
+    }
+    /* end of value section */
+    /* how_to_do section */
+    #how_to_do p{
+        margin-right: unset!important;
+    }
+    /* end of how_to_do section */
+}

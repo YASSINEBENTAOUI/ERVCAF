@@ -1,0 +1,61 @@
+/* header section */
+header{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/download/download_header.jpeg)center no-repeat;
+    background-size: cover;
+    height: 310px;
+}
+header h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: lighter;
+}
+/* end of header section */
+/* brochure section */
+#brochure .text-container{
+    margin: auto 220px;
+}
+#brochure .text-container a{
+    text-decoration: none;
+    color: #117abc;
+}
+#brochure li a{
+    font-size: 30px;
+    font-weight: lighter;
+}
+#brochure span{
+    color: #999999;
+}
+#brochure .row-hover:hover{
+    background-color: #eee;
+}
+/* end of brochure section */
+/* ////////////////////////////////// */
+@media (max-width: 576px){
+    /* header */
+    header{
+        height: 150px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+    /* end of header */
+    /* brochure section */
+    #brochure .text-container{
+        margin: unset;
+    }
+    /* end of brochure section */
+}
+@media (max-width: 768px){
+    /*brochure section */
+    #brochure .text-container{
+        margin: unset;
+    }
+    /* end of brochure section */
+}
+@media (max-width: 992px){
+    /* brochure section */
+    #brochure .text-container{
+        margin: unset;
+    }
+    /* end of brochure section */
+}

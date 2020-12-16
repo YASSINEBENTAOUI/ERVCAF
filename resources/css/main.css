@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #94c11f;
+    --p-color: #f2f2f2;
+    --light-color: #999999;
+    --bg-color: #222222;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: unset;
+}
+.arrow{
+    position: fixed;
+    right: 0.75rem;
+    bottom: 00.75rem;
+    width: 2.625rem;
+    height: 2.625rem;
+    z-index: 10;
+    display: none;
+}
+/* loading section */
+.loader_bg {
+    background-color: #fff;
+    z-index: 999999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end of loading section */
+/* logo-text mobile */
+#logo-text-1{
+    display: none;
+}
+/* end of logo-text mobile */
+/* info */
+.info{
+    color: var(--main-color);
+    background-color: #444;
+    font-size: 14px;
+}
+/* end of info */
+/* logo section */
+.logo-text h4{
+    font-size: 17px;
+}
+.logo-text span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.logo{
+    width: 60%;
+}
+.form-control{
+    border: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.form-group button:focus{
+    box-shadow: none;
+}
+/* end of logo section */
+/* navbar section */
+nav{
+    z-index: 10;
+    margin-bottom: -35px;
+}
+nav .large-display{
+    font-size: 30px;
+    color: var(--bg-color);
+}
+.navbar-toggler-icon{
+    text-align: center;
+}
+nav .collapse{
+    background-color: var(--bg-color);
+}
+nav .ul-2{
+    background-color: #444;
+}
+.icon-color{
+    color: var(--main-color);
+}
+nav .active{
+    background-color: var(--main-color);
+    color: var(--bg-color)!important;
+}
+nav .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+nav .hover-color:hover{
+    color: var(--main-color)!important;
+}
+nav .dropdown-item:hover{
+    background-color: var(--main-color);
+}
+/* end of navbar section */
+/* header section */
+header img{
+    height: 500px;
+}
+/* end of header section */
+/* main section*/
+main .card{
+    border: none;
+}
+main .card-img{
+    overflow: hidden;
+}
+main img{
+    transition: 0.5s;
+}
+main img:hover{
+    transform: scale(1.05);
+}
+/* end of main section*/
+/* article section */
+article h4{
+    text-align: center;
+}
+/* end of article section */
+/* partners section*/
+#partners img{
+    width: 200px;
+}
+/* end of partners section*/
+/* footer section*/
+footer{
+    background-color: var(--bg-color);
+    color: var(--p-color);
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.icon-size{
+    font-size: 8px;
+}
+footer .borders-x{
+    border-left: 1px solid #3f3f3f;
+    border-right: 1px solid #3f3f3f;
+}
+footer .borders-b{
+    border-bottom: 1px solid #3f3f3f;
+}
+/* end of footer section*/
+/* media section */
+#media{
+    background-color: #eeeeee!important;
+}
+#media li{
+    display: inline-block;
+    margin-right: 15px;
+}
+/* end of media section */
+/* ///////////////////////////////// */
+/* body_content section */
+#body_content ul .solutions{
+    font-weight: lighter;
+}
+#body_content .active-link{
+    color: #94c11f;
+}
+#body_content ul a{
+    text-decoration: none;
+    color: #999999;
+}
+#body_content ul a:hover{
+    color: #94c11f;
+}
+#body_content .arrow-icon{
+    color: #94c11f;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.transparent{
+    color: transparent!important;
+}
+/* ///////////////////////////// */
+#body_content .content ul li{
+    background-color: #f7f7f7;
+}
+#body_content .content .btn-links button{
+    background-color: #fff;
+}
+#body_content .content .btn-links button:focus{
+    box-shadow: none;
+}
+.tabcontent{
+    display: none;
+}
+#body_content .content ul li table{
+    background-color: #fff;
+}
+#body_content .content ul li table li{
+    background-color: #fff;
+}
+/* end of body_content section */

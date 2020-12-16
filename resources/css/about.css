@@ -1,0 +1,31 @@
+/* header section */
+header{
+    background: url(../img/about/about-header.jpeg)center no-repeat;
+    background-size: cover;
+    height: 310px;
+}
+header h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: lighter;
+}
+/* end of header section */
+/* qhse section */
+#qhse a{
+    color: #117abc;
+}
+#qhse a:hover{
+    text-decoration: none;
+}
+/* end of qhse section */
+/* ////////////////////////////////// */
+@media (max-width: 576px){
+    /* header */
+    header{
+        height: 150px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+    /* end of header */
+}
